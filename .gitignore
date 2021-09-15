@@ -2,6 +2,7 @@
 .idea/
 build/
 gradle/
+src/
 src/main/java/com.example.DemkaEE/
 settings.gradle
 gradlew.bat
