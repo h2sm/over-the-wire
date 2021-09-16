@@ -48,4 +48,8 @@ Level 7 -> Level 8:
 
 Level 8 -> Level 9:
 1) ssh bandit8@bandit.labs.overthewire.org -p 2220
+2) cat data.txt | sort | uniq -u (password is UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR)
+
+Level 9 -> Level 10:
+1) ssh bandit9@bandit.labs.overthewire.org -p 2220
 2) 
