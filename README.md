@@ -52,4 +52,12 @@ Level 8 -> Level 9:
 
 Level 9 -> Level 10:
 1) ssh bandit9@bandit.labs.overthewire.org -p 2220
+2) strings data.txt | grep -E "==" (password is truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk)
+
+Level 10 -> Level 11:
+1) ssh bandit10@bandit.labs.overthewire.org -p 2220 
+2) base64 --decode data.txt (password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR)
+
+Level 11 -> Level 12:
+1) ssh bandit11@bandit.labs.overthewire.org -p 2220
 2) 
