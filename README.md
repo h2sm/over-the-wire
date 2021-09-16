@@ -43,3 +43,9 @@ Level 6 - > Level 7:
 
 
 Level 7 -> Level 8:
+1) ssh bandit7@bandit.labs.overthewire.org -p 2220
+2) cat data.txt | grep millionth (password is cvX2JJa4CFALtqS87jk27qwqGhBM9plV)
+
+Level 8 -> Level 9:
+1) ssh bandit8@bandit.labs.overthewire.org -p 2220
+2) 
