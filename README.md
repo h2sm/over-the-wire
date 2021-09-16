@@ -27,4 +27,19 @@ Level 3 -> Level 4:
 
 Level 4 -> Level 5:
 1) ssh bandit4@bandit.labs.overthewire.org -p 2220
-2) //wow idk
+2) cd inhere/
+3) find . -type f -exec file {} + | grep ASCII (password is koReBOKuIDDepwhWk7jZC0RTdopnAYKh)
+
+Level 5 -> Level 6:
+1) ssh bandit5@bandit.labs.overthewire.org -p 2220
+2) find . -size 1033c -type f -exec file {} + | grep ASCII (output is "./maybehere07/.file2: ASCII text, with very long lines")
+3) cat ./maybehere07/.file2 (password is DXjZPULLxYr17uwoI01bNLQbtFemEgo7)
+
+Level 6 - > Level 7:
+1) ssh bandit6@bandit.labs.overthewire.org -p 2220
+2) cd /
+3) find . -size 33c -user bandit7 -group bandit6 (file is here : /var/lib/dpkg/info/bandit7.password)
+4) cat /var/lib/dpkg/info/bandit7.password (password is HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs)
+
+
+Level 7 -> Level 8:
