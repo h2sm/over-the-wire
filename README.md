@@ -113,4 +113,15 @@ Level 15 -> Level 16:
 3) BfMYroe26WYalil77FoDi9qh59eK5xNr (Correct! cluFn7wTiGryunymYOu4RcffSxQluehd)
 
 Level 16 -> Level 17:
+1) ssh bandit16@bandit.labs.overthewire.org -p 2220
+2) mkdir /tmp/myfiles
+3) cmd /tmp/myfiles
+4) nmap -31000-32000 localhost | awk '/open/{print $1+0}' > ports.txt (31046 31518 31691 31790 31960)
+5) for i in $(cat ports.txt); do print $i | echo "cluFn7wTiGryunymYOu4RcffSxQluehd" | timeout 1 openssl s_client -connect localhost:$i -quiet; done
+6) cat /etc/bandit_pass/bandit16 | openssl s_client -connect localhost:31790 -quiet > ssh22.private
+7) Удаляем "Correct!" из ssh22.private
+8) chmod 400 ssh22.private
+9) ssh -i ssh22.private bandit17@localhost
+
+Level 17 -> Level 18:
 1) 
