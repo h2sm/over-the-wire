@@ -63,4 +63,36 @@ Level 11 -> Level 12:
 2) cat data.txt | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]' (password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu)
 
 Level 12 -> Level 13:
-1) 
+1) ssh bandit12@bandit.labs.overthewire.org -p 2220
+2) mkdir /tmp/pass
+3) cp data.txt /tmp/pass
+4) file data1 (data1: gzip compressed data, was "data2.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix)
+5) mv data1 data1.gz
+6) ls (data1.gz  data.txt)
+7) gunzip data1.gz 
+8) ls (data1  data.txt)
+9) file data1 (data1: bzip2 compressed data, block size = 900k)
+10) bzip2 -d data1 (bzip2: Can't guess original name for data1 -- using data1.out)
+11) ls (data1.out  data.txt)
+12) file data1.out (data1.out: gzip compressed data, was "data4.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix)
+13) mv data1.out data1.gz
+14) ls (data1.gz  data.txt)
+15) gunzip data1.gz
+16) ls (data1  data.txt)
+17) file data1 (data1: POSIX tar archive (GNU))
+18) tar xvf data1
+19) ls (data1  data5.bin  data.txt)
+20) file data5.bin (data5.bin: POSIX tar archive (GNU))
+21) tar xvf data5.bin (data6.bin)
+22) file data6.bin (data6.bin: bzip2 compressed data, block size = 900k)
+23) bzip2 -d data6.bin (bzip2: Can't guess original name for data6.bin -- using data6.bin.out)
+24) ls (data1  data5.bin  data6.bin.out  data.txt)
+25) file data6.bin.out (data6.bin.out: POSIX tar archive (GNU))
+26) tar xvf data6.bin.out
+27) ls (data1  data5.bin  data6.bin.out  data8.bin  data.txt)
+28) file data8.bin (data8.bin: gzip compressed data, was "data9.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix)
+29) mv data8.bin data8.gz
+30) gunzip data8.gz
+31) ls (data1  data5.bin  data6.bin.out  data8  data.txt)
+32) file data8 (data8: ASCII text)
+33) cat data8 (The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL)
