@@ -124,4 +124,10 @@ Level 16 -> Level 17:
 9) ssh -i ssh22.private bandit17@localhost
 
 Level 17 -> Level 18:
+1) diff passwords.new passwords.old (< kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd)
+
+Level 18 -> Level 19:
+1) ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat ~/readme" (IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x)
+
+Level 19 -> Level 20:
 1) 
