@@ -130,4 +130,10 @@ Level 18 -> Level 19:
 1) ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat ~/readme" (IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x)
 
 Level 19 -> Level 20:
+1) ssh bandit19@bandit.labs.overthewire.org -p 2220
+2) ./bandit20-do
+3) ./bandit20-do id
+4) ./bandit20-do cat /etc/bandit_pass/bandit20 (password is GbKksEFF4yrVs6il55v6gwY5aVje5f0j)
+
+Level 20 -> Level 21:
 1) 
