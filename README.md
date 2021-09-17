@@ -96,3 +96,21 @@ Level 12 -> Level 13:
 31) ls (data1  data5.bin  data6.bin.out  data8  data.txt)
 32) file data8 (data8: ASCII text)
 33) cat data8 (The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL)
+
+Level 13 -> Level 14:
+1) ssh bandit13@bandit.labs.overthewire.org -p 2220
+2) ssh bandit14@localhost -i sshkey.private
+3) cd /etc/bandit_pass
+4) cat bandit14 (4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e)
+
+Level 14 -> Level 15:
+1) nc localhost 30000
+2) 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e (Correct! BfMYroe26WYalil77FoDi9qh59eK5xNr)
+
+Level 15 -> Level 16:
+1) ssh bandit15@bandit.labs.overthewire.org -p 2220
+2) openssl s_client -connect localhost:30001 -ign_eof 
+3) BfMYroe26WYalil77FoDi9qh59eK5xNr (Correct! cluFn7wTiGryunymYOu4RcffSxQluehd)
+
+Level 16 -> Level 17:
+1) 
