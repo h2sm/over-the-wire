@@ -185,4 +185,38 @@ Level 24 -> Level 25:
 9) nc localhost 30002 < all_nums.txt (password is uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG)
 
 Level 25 -> Level 26:
+2) ssh bandit26@localhost -i bandit26.sshkey 
+3) Соединение автоматически завершается
+4) cat /etc/passwd | grep bandit26 (bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext)
+5) cat /usr/bin/showtext (
+   #!/bin/sh
+   more ~/text.txt
+   exit 0
+)
+6) Пароль находится в папке /etc/bandit_pass/bandit26, значит нужно зайти в него перед выходом из системы
+7) Уменьшаю окно терминала
+8) ssh 
+9) Логотип "bandit" полностью не отображается, нажимаю "v"
+10) Ввожу :e /etc/bandit_pass/bandit26 чтобы открыть файл с паролем
+11) Пароль - 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+Level 26 -> Level 27:
+1) Вхожу обратно в vim, где искал пароль от этого задания
+2) Ввожу :set shell=/bin/bash
+3) Открываю :shell
+4) ls 
+5) ./bandit27-do
+6) ./bandit27-do cat /etc/bandit_pass/bandit27 (3ba3118a22e93127a4ed485be72ef5ea)
+
+Level 27 -> Level 28:
+1) git clone ssh://bandit27-git@localhost/home/bandit27-git/repo (fatal: could not create work tree dir 'repo': Permission denied)
+2) mkdir /tmp/gitTask
+3) cd /tmp/gitTask
+4) git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+5) ls
+6) cd repo/
+7) ls
+8) cat README (The password to the next level is: 0ef186ac70e04ea33b4c1853d2526fa2)
+
+Level 28 -> Level 29:
 1) 
