@@ -169,3 +169,20 @@ Level 23 -> Level 24:
 9) cat pass_two (UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ)
 
 Level 24 -> Level 25:
+1) mkdir /tmp/kekw
+2) cd /tmp/kekw
+3) touch sh_comm.sh 
+4) chmod 777 sh_comm.sh
+5) vim sh_comm.sh
+   #!/bin/bash
+   for i in {0000..9999}
+   do
+      echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i"
+   done
+6) touch all_nums.txt
+7) chmod 777 all_nums.txt
+8) ./sh_comm.sh > all_nums.txt
+9) nc localhost 30002 < all_nums.txt (password is uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG)
+
+Level 25 -> Level 26:
+1) 
