@@ -136,4 +136,23 @@ Level 19 -> Level 20:
 4) ./bandit20-do cat /etc/bandit_pass/bandit20 (password is GbKksEFF4yrVs6il55v6gwY5aVje5f0j)
 
 Level 20 -> Level 21:
-1) 
+1) echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l localhost -p 10000 &
+2) ./suconnect 10000 (password is gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr)
+
+Level 21 -> Level 22:
+1) cd /etc/cron.d
+2) ls
+3) cat /etc/cron.d/cronjob_bandit22
+4) cat /usr/bin/cronjob_bandit22.sh
+5) cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv (password is Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI)
+
+Level 22 -> Level 23:
+1) cd /etc/cron.d
+2) ls
+3) cat cronjob_bandit23
+4) cat /usr/bin/cronjob_bandit23.sh
+5) echo I am user bandit23 | md5sum | cut -d ' ' -f 1 (8ca319486bfbbc3663ea0fbe81326349)
+6) cat /tmp/8ca319486bfbbc3663ea0fbe81326349 (jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n)
+
+Level 23 -> Level 24:
+1)
