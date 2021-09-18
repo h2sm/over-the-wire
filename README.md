@@ -219,4 +219,12 @@ Level 27 -> Level 28:
 8) cat README (The password to the next level is: 0ef186ac70e04ea33b4c1853d2526fa2)
 
 Level 28 -> Level 29:
+1) mkdir /tmp/git4
+2) cd /tmp/git4 
+3) git clone ssh://bandit28-git@localhost/home/bandit28-git/repo
+4) cd repo
+5) ls
+6) git log -p (bbc96594b4e001778eee9975372716b2)
+
+Level 29 -> Level 30:
 1) 
