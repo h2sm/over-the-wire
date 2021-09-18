@@ -227,4 +227,21 @@ Level 28 -> Level 29:
 6) git log -p (bbc96594b4e001778eee9975372716b2)
 
 Level 29 -> Level 30:
-1) 
+1) mkdir /tmp/gitTask111
+2) cd /tmp/gitTask111
+3) git clone ssh://bandit29-git@localhost/home/bandit29-git/repo
+4) cd repo
+5) cat README.md
+6) git branch -r
+7) git checkout dev
+8) cat README.MD (5b90576bedb2cc04c86a9e924ce42faf)
+
+Level 30 -> Level 31:
+1) mkdir /tmp/gitNorm
+2) cd /tmp/gitNorm
+3) git clone ssh://bandit30-git@localhost/home/bandit29-git/repo
+4) cd repo
+5) cat README.md (рассмешнил :|)
+6) git tag (secret)
+7) git show secret (47e603bb428404d265f59c42920d81e5)
+
