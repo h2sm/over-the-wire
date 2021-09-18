@@ -185,20 +185,20 @@ Level 24 -> Level 25:
 9) nc localhost 30002 < all_nums.txt (password is uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG)
 
 Level 25 -> Level 26:
-2) ssh bandit26@localhost -i bandit26.sshkey 
-3) Соединение автоматически завершается
-4) cat /etc/passwd | grep bandit26 (bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext)
-5) cat /usr/bin/showtext (
+1) ssh bandit26@localhost -i bandit26.sshkey 
+2) Соединение автоматически завершается
+3) cat /etc/passwd | grep bandit26 (bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext)
+4) cat /usr/bin/showtext (
    #!/bin/sh
    more ~/text.txt
    exit 0
 )
-6) Пароль находится в папке /etc/bandit_pass/bandit26, значит нужно зайти в него перед выходом из системы
-7) Уменьшаю окно терминала
-8) ssh 
-9) Логотип "bandit" полностью не отображается, нажимаю "v"
-10) Ввожу :e /etc/bandit_pass/bandit26 чтобы открыть файл с паролем
-11) Пароль - 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+5) Пароль находится в папке /etc/bandit_pass/bandit26, значит нужно зайти в него перед выходом из системы
+6) Уменьшаю окно терминала
+7) ssh 
+8) Логотип "bandit" полностью не отображается, нажимаю "v"
+9) Ввожу :e /etc/bandit_pass/bandit26 чтобы открыть файл с паролем
+10) Пароль - 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
 
 Level 26 -> Level 27:
 1) Вхожу обратно в vim, где искал пароль от этого задания
