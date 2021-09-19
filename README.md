@@ -245,3 +245,20 @@ Level 30 -> Level 31:
 6) git tag (secret)
 7) git show secret (47e603bb428404d265f59c42920d81e5)
 
+Level 31 -> Level 32:
+1) mkdir /tmp/gitTask31
+2) cd /tmp/gitTask31
+3) git clone ssh://bandit31-git@localhost/home/bandit31-git/repo
+4) cd repo/
+5) cat README.md
+6) echo "May I come in?" > key.txt
+7) git add -f key.txt
+8) git commit -m "lol"
+9) git push (56a9bf19c63d650ce78e6ec0354ee45e)
+
+Level 32 -> Level 33:
+1) $0 (название файла сценария, как бы запускаем sh еще раз)
+2) cat /etc/bandit_pass/bandit33 (c9c3199ddf4121b10cf581a98d51caee)
+
+Level 33 -> Level 34:
+
