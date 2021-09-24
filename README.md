@@ -1,8 +1,8 @@
 # over-the-wire
 <details>
    <summary> Level 0: </summary>
-1) ssh bandit0@bandit.labs.overthewire.org -p 2220 
-2) bandit0
+1. ssh bandit0@bandit.labs.overthewire.org -p 2220 
+2. bandit0
 </details>
 
 <details>
